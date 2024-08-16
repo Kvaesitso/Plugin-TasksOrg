@@ -308,3 +308,4 @@ fabric.properties
 .idea/other.xml
 
 .kotlin
+app/release
