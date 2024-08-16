@@ -1,0 +1,21 @@
+[versions]
+agp = "8.7.0-alpha03"
+kotlin = "2.0.0"
+
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+activity = "1.9.1"
+lifecycle = "2.8.4"
+
+launcherSdk = "2.1.0-SNAPSHOT"
+
+[libraries]
+launchersdk = { group = "de.mm20.launcher2", name = "plugin-sdk", version.ref = "launcherSdk" }
+
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
